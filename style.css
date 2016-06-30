@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #3f51b5;
+	text-shadow: 0 0 0.5px white;
+	letter-spacing:1px;
+}
+	article{
+		width: 650px;
+		margin:0 auto;
+	}
+
+		h1{
+			color: white;
+			font-family: Arial;
+			font-size: 24px;
+			font-weight: 400;
+			margin-top:115px;
+			text-align: center;
+		}
+
+		input[name='city']{
+			width: 631px;
+			height: 48px;
+			background-color: #3f51b5;
+			border: 2px solid white;
+			padding-left: 15px;
+			margin-top: 55px;
+			color: white;
+			font-family: Arial;
+			font-size: 18px;
+			font-weight: 400;
+			text-shadow: 0 0 0.5px white;
+			letter-spacing:1px;
+		}
+				input[placeholder]{color: #ffffff}
+				input::-webkit-input-placeholder {color:#ffffff;}
+				input::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+				input:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+				input:-ms-input-placeholder      {color:#ffffff;}
+
+		button[name='search']{
+			width: 77px;
+			height: 52px;
+			background-color: white;
+			border: 2px solid white;
+			position: relative;
+				top:-52px;
+				left:573px;
+			color: #3f51b5;
+			font-family: Arial;
+			font-size: 14px;
+			font-weight: 400;
+			cursor:pointer;
+			text-shadow: 0 0 0.5px #3f51b5;
+			letter-spacing:1px;
+		}
+
+		button[name='clear']{
+			width: 66px;
+			height: 32px;
+			background-color: white;
+			border: 2px solid white;
+			color: #3f51b5;
+			font-family: Arial;
+			font-size: 14px;
+			font-weight: 400;
+			display: block;
+			margin: 0 auto 20px;
+			cursor:pointer;
+			text-shadow: 0 0 0.5px #3f51b5;
+			letter-spacing:1px;
+			
+		}
+
+		section{
+			margin-top: -10px;
+			min-height: 146px;
+			margin-bottom: 10px;
+		}
+			p.place{
+				color: white;
+				font-family: Arial;
+				font-weight: 400;
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+					.cityName{
+						font-size: 24px;
+					}
